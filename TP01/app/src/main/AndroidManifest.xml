@@ -21,6 +21,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Exercise1"
+            android:exported="false"
+            android:theme="@style/Theme.TP01"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Exercise2"
+            android:exported="false"
+            android:theme="@style/Theme.TP01"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Exercise3"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

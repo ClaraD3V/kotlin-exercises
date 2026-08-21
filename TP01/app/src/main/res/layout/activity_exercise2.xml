@@ -11,28 +11,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TP01 - Exercícios Kotlin"
-        android:textSize="26sp"
-        android:layout_marginBottom="32dp" />
+        android:text="Exercício 2 - Conversão de Temperatura"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
 
-    <Button
-        android:id="@+id/btnExercise1"
+    <EditText
+        android:id="@+id/editCelsius"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Exercício 1"
+        android:hint="Digite a temperatura em Celsius"
+        android:inputType="numberDecimal|numberSigned"
         android:layout_marginBottom="16dp" />
 
     <Button
-        android:id="@+id/btnExercise2"
+        android:id="@+id/btnConvert"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Exercício 2"
-        android:layout_marginBottom="16dp" />
+        android:text="Converter para Fahrenheit" />
 
-    <Button
-        android:id="@+id/btnExercise3"
-        android:layout_width="300dp"
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Exercício 3" />
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="24dp" />
 
 </LinearLayout>
