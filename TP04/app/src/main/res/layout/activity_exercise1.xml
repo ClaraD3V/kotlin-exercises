@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 1 - Filmes"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Título do filme"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editDirector"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Diretor do filme"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAddMovie"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Adicionar filme"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnChangeLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Alterar layout"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerMovies"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+</LinearLayout>
