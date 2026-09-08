@@ -10,9 +10,10 @@ build/
 # Local configuration
 local.properties
 
-# Native build
+# Android build
+captures/
 .externalNativeBuild/
 .cxx/
 
-# Kotlin
-*.class
+# macOS
+.DS_Store
