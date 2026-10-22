@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">TP05</string>
+    <string name="app_name">Filmes Favoritos</string>
+    <string name="meus_filmes">Meus filmes favoritos</string>
+    <string name="lista_vazia">Nenhum filme ainda.\nToque em + para adicionar.</string>
+    <string name="novo_filme">Novo filme</string>
+    <string name="editar_filme">Editar filme</string>
+    <string name="hint_nome">Nome do filme</string>
+    <string name="hint_foto">URL da foto (https://...)</string>
+    <string name="escolher_galeria">Escolher da galeria</string>
+    <string name="nota">Nota</string>
+    <string name="nota_formato">%1$.1f / 5</string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="excluir">Excluir</string>
+    <string name="excluir_titulo">Excluir filme</string>
+    <string name="excluir_mensagem">Remover \"%1$s\" dos favoritos?</string>
+    <string name="cd_foto">Foto do filme</string>
+    <string name="cd_adicionar">Adicionar filme</string>
+    <string name="cd_editar">Editar</string>
+    <string name="cd_excluir">Excluir</string>
 </resources>
