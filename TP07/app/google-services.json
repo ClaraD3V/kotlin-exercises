@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1029099117065",
+    "project_id": "kotlin-exercises-d119b",
+    "storage_bucket": "kotlin-exercises-d119b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029099117065:android:a0b5752da63c8edbf6b6d8",
+        "android_client_info": {
+          "package_name": "com.example.tp07"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvs-KK8L5KUNxaz9qtd2ORGR3edPnamI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
